@@ -18,9 +18,9 @@ describe('Todo Item', () => {
         const dispatch = jest.fn();
         render(<Item todo={TODO} dispatch={dispatch} index={0} />);
 
-        expect(screen.getByText('Todo task')).toBeInTheDocument();
+        expect(screen.getByText("Todo task")).toBeInTheDocument();
         expect(screen.getByTestId("todo-item")).toBeInTheDocument();
-        expect(screen.getByTestId('todo-item')).not.toHaveClass('completed');
+        expect(screen.getByTestId("todo-item")).not.toHaveClass("completed");
     });
 
     test("update todo title on double click", () => {
