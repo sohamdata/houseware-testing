@@ -12,7 +12,7 @@ The following components will be tested:
 
 The basic test for each component will be to check if the component is rendered correctly, and if the user interaction is working as expected.
 
-
+![image](https://github.com/sohamdata/houseware-testing/assets/78294692/d14f37b0-3f08-4aaf-8f9d-343243c7106f)
 
 ## Tests
 
